@@ -1,0 +1,12 @@
+/{
+	soc{
+		i2c_custom: i2c@0 {
+			compatible = "foo,i2c-driver";
+			#address-cells = <1>;
+			#size-cells = <0>;
+			reg = <0 100>;
+			status = "okay";
+			label= "i2c_custom";
+		};
+	}; 
+};

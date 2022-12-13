@@ -1,0 +1,6 @@
+config MY_I2C_DRIVER
+	bool "I2C Data"
+	default y
+	depends on HAS_ALTERA_HAL
+	help
+	  Enable I2C devices

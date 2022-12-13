@@ -1,0 +1,15 @@
+# Copyright (c) 2022 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+description: I2C Driver with Zephyr Semaphores
+
+compatible: "foo,i2c-driver"
+
+include: i2c-controller.yaml
+
+properties:
+    reg:
+      required: true
+
+    interrupts:
+      required: false
