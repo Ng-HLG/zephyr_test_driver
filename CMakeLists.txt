@@ -6,10 +6,7 @@ list(APPEND ZEPHYR_EXTRA_MODULES
 )
 
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
-project(blinky)
-
-# Do not add this line! 
-#add_subdirectory(drivers)
+project(test_driver)
 
 target_sources(app PRIVATE src/main.c)
 
